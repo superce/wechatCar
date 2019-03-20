@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/list/list",
+    "pages/car/car",
+    "pages/person/person",
+    "pages/detail/detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "购物首页",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color": "#7f8389",
+    "selectedColor": "#fff",
+    "borderStyle": "black",
+    "backgroundColor": "#03A9F4",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"首页",
+        "iconPath":"./images/1-1.png",
+        "selectedIconPath":"./images/1.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "分类",
+        "iconPath": "./images/2.png",
+        "selectedIconPath": "./images/2-2.png"
+      },
+      {
+        "pagePath": "pages/car/car",
+        "text": "购物车",
+        "iconPath": "./images/3-3.png",
+        "selectedIconPath": "./images/3.png"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "个人中心",
+        "iconPath": "./images/4.png",
+        "selectedIconPath": "./images/4-4.png"
+      }
+    ]
+  }
+}

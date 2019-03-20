@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="list">
+  <view class='item' wx:for='{{lists}}' wx:key='index' bindtap='toDetail' data-img='{{ item.img }}'>
+    <!-- <block> -->
+      <image src='{{ item.img }}'></image>
+      <text class='title'>{{ item.title }}</text>
+      <view class='price'>
+        ${{ item.price }}
+        <text>已售{{ item.sell }}件</text>
+      </view>
+    <!-- </block> -->
+  </view>
+</view>

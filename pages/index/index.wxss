@@ -1,0 +1,33 @@
+/**index.wxss**/
+.list{
+  width: 700rpx;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.list .item{
+  width: 312rpx;
+  padding: 10rpx;
+}
+.list .item image{
+  width: 100%;
+}
+.list .item .title{
+  display: block;
+  font-size: 28rpx;
+  color:#333;
+  height: 80rpx;
+  overflow: hidden;
+}
+.list .item .price {
+  font-size: 24rpx;
+  color:#f00;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rpx;
+}
+.list .item .price text{
+  font-size: 24rpx;
+  color:#333;
+}

@@ -1,0 +1,27 @@
+.detail{
+  width: 700rpx;
+  margin: 0 auto;
+}
+.buylist{
+  width: 400rpx;
+  display: flex;
+  justify-content: space-between;
+  background: #03A9F4;
+  border-radius: 40rpx;
+}
+.buylist text{
+  font-size: 32rpx;
+  color:#333;
+  display:block;
+  line-height:70rpx;
+  color:#fff;
+}
+.buylist .car{
+  padding-left: 40rpx;
+}
+.buylist .buy{
+  width:150rpx;
+  text-align:center;
+  background:#0288D1;
+  border-radius: 0 40rpx 40rpx 0;
+}

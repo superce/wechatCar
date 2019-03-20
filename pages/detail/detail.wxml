@@ -1,0 +1,7 @@
+<view class='detail'>
+  <image src='{{ list.id }}'></image>
+  <view class='buylist'>
+    <text class='car' bindtap='car'>加入购物车</text>
+    <text class='buy' bindtap='buy'>购买</text>
+  </view>
+</view>
